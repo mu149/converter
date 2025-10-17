@@ -5,7 +5,9 @@ import { VitePWA } from "vite-plugin-pwa";
 import path from "path";
 
 export default defineConfig({
-  base: "/converter2.0/",
+  // base must match your GitHub repo name so assets are served from
+  // https://<user>.github.io/<repo>/
+  base: "/converter/",
   plugins: [
     react(),
     //tailwindcss(),
