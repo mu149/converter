@@ -21,6 +21,7 @@
   </head>
   <body class="bg-slate-900 text-white">
     <div id="root"></div>
-    <script type="module" src="%BASE_URL%src/main.jsx"></script>
+    <!-- Module entry should NOT be prefixed with the base; Vite resolves /src during build/dev -->
+    <script type="module" src="/src/main.jsx"></script>
   </body>
 </html>
