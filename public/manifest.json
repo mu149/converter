@@ -1,9 +1,9 @@
 {
-  "id": "/converter2/",
+  "id": "/converter/",
   "name": "Smart Converter",
   "short_name": "Converter",
-  "start_url": "/converter2/#/",
-  "scope": "/converter2/",
+  "start_url": "/converter/#/",
+  "scope": "/converter/",
   "display": "standalone",
   "background_color": "#1e293b",
   "theme_color": "#0ea5e9",
